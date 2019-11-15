@@ -18,7 +18,7 @@ yarn install
 
 #### Styling
 
-Status utilizes `style modules` by including a `styles.module.css` file as needed for
+Utilizes `style modules` by including a `styles.module.css` file as needed for
 each code chunk.
 <br/>CSS variables should be used and can imported as needed into the
 style module files.
@@ -33,7 +33,7 @@ style module files.
 
 ## Lint
 
-Status uses [ESLint](https://eslint.org/) and [Stylelint](https://github.com/stylelint/stylelint) to ensure consistent syntax.
+Uses [ESLint](https://eslint.org/) and [Stylelint](https://github.com/stylelint/stylelint) to ensure consistent syntax.
 
 ```bash
 yarn lint
@@ -41,7 +41,7 @@ yarn lint
 
 ## Build Production
 
-For production, Status exports minimized static files.
+For production, minimized static files are built and exported:
 
 ```bash
 yarn build

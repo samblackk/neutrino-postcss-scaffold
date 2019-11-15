@@ -2,10 +2,6 @@
   "name": "neutrino-postcss-scaffold",
   "author": "Samantha Black <sam@sam.black> (https://github.com/samblackk)",
   "keywords": ["neutrino", "postcss", "react", "scaffold", "starter"],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/samblackk/neutrino-postcss-scaffold"
-  },
   "version": "1.0.0",
   "license": "MIT",
   "main": "index.js",
@@ -25,7 +21,7 @@
     "react-dom": "^16",
     "react-hot-loader": "^4",
     "react-router-dom": "^5.1.2",
-    "reset-css": "^5.0.1",
+    "reset-css": "^5.0.1"
   },
   "devDependencies": {
     "@neutrinojs/airbnb": "^9.0.0-rc.3",
