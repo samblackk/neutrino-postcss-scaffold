@@ -1,0 +1,53 @@
+{
+  "name": "neutrino-postcss-scaffold",
+  "author": "Samantha Black <sam@sam.black> (https://github.com/samblackk)",
+  "keywords": ["neutrino", "postcss", "react", "scaffold", "starter"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/samblackk/neutrino-postcss-scaffold"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext js --ext jsx src",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack -p --mode=production"
+  },
+  "dependencies": {
+    "postcss-advanced-variables": "^3.0.0",
+    "postcss-color-function": "^4.1.0",
+    "postcss-conditionals": "^2.1.0",
+    "postcss-import-alias-resolver": "^0.1.1",
+    "postcss-simple-vars": "^5.0.2",
+    "prop-types": "^15.7.2",
+    "react": "^16",
+    "react-dom": "^16",
+    "react-hot-loader": "^4",
+    "react-router-dom": "^5.1.2",
+    "reset-css": "^5.0.1",
+  },
+  "devDependencies": {
+    "@neutrinojs/airbnb": "^9.0.0-rc.3",
+    "@neutrinojs/copy": "^9.0.0-rc.3",
+    "@neutrinojs/html-template": "^9.0.0-rc.3",
+    "@neutrinojs/react": "^9.0.0-rc.3",
+    "@neutrinojs/style-minify": "^9.0.0-rc.3",
+    "eslint": "^5",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.18.2",
+    "neutrino": "^9.0.0-rc.3",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-custom-media": "^7.0.8",
+    "postcss-for": "^2.1.1",
+    "postcss-import": "^12.0.1",
+    "postcss-import-alias-resolver": "^0.1.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-reporter": "^6.0.1",
+    "stylelint": "^11.1.1",
+    "stylelint-config-recommended": "^3.0.0",
+    "webpack": "^4",
+    "webpack-cli": "^3",
+    "webpack-dev-server": "^3"
+  }
+}
