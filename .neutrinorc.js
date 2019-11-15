@@ -52,7 +52,6 @@ module.exports = {
     copy({
       patterns: [
         { from: './_redirects', to: '.' }, // Can remove if not serving on Netlify
-        { from: './favicon.ico', to: '.' }
       ],
     }),
   ],
