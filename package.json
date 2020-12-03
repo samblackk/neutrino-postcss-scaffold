@@ -28,7 +28,7 @@
     "react-hot-loader": "^4",
     "react-router-dom": "^5.1.2",
     "reset-css": "^5.0.1",
-    "serialize-javascript": "^2.1.1"
+    "serialize-javascript": "^3.1.0"
   },
   "devDependencies": {
     "@neutrinojs/airbnb": "^9.0.0-rc.3",
