@@ -38,7 +38,7 @@ module.exports = {
       }
     }),
     htmlTemplate({
-      title: 'Neutrino v9 Scaffold by Sam Black',
+      title: 'React App',
       lang: 'en',
       meta: {
         viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no',
